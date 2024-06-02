@@ -1,0 +1,267 @@
+#wrapper{
+  background-color: white;
+  /* height: 500px; */
+  width: 430px;
+  padding: 10px 50px 10px 50px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4vh;
+  border: 1px solid #E5E5E5
+
+}
+#headingContainer{
+  display: flex;
+}
+#heading{
+  margin-bottom: 0;
+  text-align: start;
+  flex: 1;
+}
+#crossBtn{
+ height: 18px;
+ width: 18px;
+ align-items: right;
+ margin-top: 20px;
+}
+#approximateBalance{
+  color: #A8A8A8;
+  font-size: 12px;
+  font-weight: 600;
+}
+#balanceContainer{
+  display: flex;
+  padding: 10px;
+  padding-left:0;
+  color: black;
+  align-items: center;
+  margin: 0 5px 0 5px;
+  justify-content: space-between;
+}
+
+#timeFrameText{
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.timeFrameContainer{
+  display: flex;
+ margin-left: 10px;
+
+}
+.switch{
+  align-items: end;
+}
+#enableAccelerationAPYContainer{
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+#enableAcceleratedAPY{
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+#selectTier{
+  color: #A3A3A3;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 10px;
+  
+}
+#tierContainer{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#roiCurrentRate{
+  display: flex;
+  color: #A3A3A3;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 10px;
+  display: block;
+  width: 100%;
+  text-align: right;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+#roiRateTextField{
+  width: 100%;
+  border: none;
+  background-color: #F9FAFB;
+  border-radius: 14px;
+  text-align: right;
+  font-size: 27px;
+  font-weight: bold;
+}
+#roiRateTextField:focus{
+  outline: none;
+  width: 100%;
+  border: none;
+  background-color: #F9FAFB;
+  border-radius: 14px;
+  font-size: 27px;
+  font-weight: bold;
+  
+}
+#pencilIcon{
+  height: 24px;
+  width: 24px;
+  margin: 15px 5px 15px 5px;
+}
+#inputContainer{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  border: 2px solid #ECECEC;
+  background-color: #F9FAFB;
+  border-radius: 14px;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+#approximateRate{
+  width: 100%;
+  display: block;
+  color: #A8A8A8;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: right;
+  margin-top: 14px;
+}
+#buttonContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 15px;
+  align-items: center;
+}
+#applyButton{
+  height: 49px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  width: 50%;
+  margin-right: 10px;
+}
+#cancelButton{
+  height: 49px;
+  border: 1px solid #666666;
+  border-radius: 15px;
+  width: 50%;
+  background-color: white;
+  margin-left: 10px;
+}
+
+#textField{
+  width: 100%;
+  border: 2px solid #ECECEC;
+  background-color: #F9FAFB;
+  border-radius: 14px;
+  font-size: 27px;
+  font-weight: bold;
+  height: 60px;
+  width: 100%;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#textField:focus{
+  outline: none;
+}
+#textContainer{
+  display: flex;
+  color: #808080;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  /* background-color: red; */
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#cakeImage{
+  height: 12px;
+  width: 12px;
+ 
+}
+#cake{
+  margin-right: 10px;
+  margin-left: 5px;
+  
+}
+#usd{
+  margin-left: 5px;
+}
+#showDetails{
+  color: #070602;
+  font-size: 12px;
+  margin-right: 6px;
+}
+#showDetailsContainer{
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+#dropdownImg{
+  height: 16px;
+  width: 16px;
+  align-items: end;
+}
+#apyTxt{
+  display: flex;
+  margin-top: 14px;
+}
+#apy{
+  color: #070602;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  flex: 1;
+  margin-top: 5px;
+}
+#percentage{
+  color: #FAC200;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+#detailList{
+  color: #A3A3A3;
+  font-size: 14px;
+  font-weight: 600;
+}
+.dropdownContent{
+  display: none;
+  margin-top: 10px;
+}
+.showDetailsContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: center;
+  cursor: pointer;
+}
+#dropDownBtn{
+  background-color: white;
+  border: none;
+  display: flex;
+}
+
+.dropDownTxt{
+  display: block;
+  width: 100%;
+}
+
+#pencilBtn{
+  background-color: #F9FAFB;
+  border: none;
+}

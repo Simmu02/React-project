@@ -1,0 +1,50 @@
+.switch {
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ccc;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.switch.switch-on {
+    background-color: #F8C400;
+}
+
+.switch-slider {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.4s;
+}
+
+.switch.switch-on .switch-slider {
+    transform: translateX(30px);
+}
+.switchSize{
+    width: 30px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #ccc;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+.smallSwitchSlider{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.4s;
+}
+.switch.switch-on .smallSwitchSlider{
+    transform: translateX(14px);
+}
